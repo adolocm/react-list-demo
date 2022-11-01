@@ -1,3 +1,9 @@
+# Beginning development
+
+Run the following lines in the project directory
+npm install
+npm install react-icons
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
