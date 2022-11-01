@@ -16,6 +16,34 @@ html{
   height:5vh;
 }
 
+#delete{
+  font-size: 1.2em;
+  display: inline-block;
+  position:sticky;
+  right:0;
+}
+#delete:hover{
+  color: rgb(216, 49, 49);
+}
+
+#name{
+  display: inline-block;
+  margin-left:5%;
+  width:85%;
+}
+
+#item{
+  display:block;
+  font-size:1.5em;
+  color: white;
+  margin: 1vmin;
+  border-radius:7px;
+  background-color:#686b77;
+  width:85%;
+  height:4vh;
+  text-align: left;
+}
+
 #list{
   margin:auto;
   margin-top:2vh;
@@ -31,19 +59,11 @@ html{
 }
 #list::-webkit-scrollbar{width:0}
 
-#item{
-  font-size:1.5em;
-  color: white;
-  margin: 1vmin;
-  border-radius:7px;
-  background-color:#686b77;
-  width:85%;
-  height:3.5vh;
-}
+
 
 #listinput{
   margin:auto;
-  margin-top:2vh;
+  margin-top:3vh;
   text-align: center;
 }
 
@@ -75,4 +95,17 @@ html{
 
 #submit:hover{
   background-color: rgb(75, 135, 214);
+}
+
+#clear{
+  justify-self:flex-end;
+  margin-top:10px;
+  background-color:white;
+  border-radius: 7px;
+  padding:7px;
+}
+
+#clear:hover{
+  background-color:red;
+  color:white;
 }
