@@ -9,14 +9,15 @@ const ListInput = ({addItem, ...props}) => {
         setInput(value.target.value);
     }
 
+    
     function handleSubmit(event){
         event.preventDefault();
         if(input.length > 0){
         addItem(input);
         }
         else {
-          //document.getElementById('input').placeholder="Please enter a value...";
-          //setTimeout(()=> document.getElementById('input').placeholder="Click here to type...", 3000);
+          document.getElementById('input').placeholder="Please enter a value...";
+          setTimeout(()=> document.getElementById('input').placeholder="Click here to type...", 3000);
         }
         setInput("");
     }

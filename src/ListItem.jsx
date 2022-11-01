@@ -3,7 +3,7 @@ import {AiFillDelete} from 'react-icons/ai'
 
 const ListItem = ({name, removeItem, ...props}) => {
 
-
+  
   function handleClick(){
     removeItem(name);
   }
